@@ -1,0 +1,1 @@
+python main.py isic cifar10_LeNet ../log/isic_test /home/fnunnari/skincaredata/ISIC_Challenge_2019/ISIC_2019_Training_Input --objective one-class --lr 0.0001 --n_epochs 15 --lr_milestone 50 --batch_size 200 --weight_decay 0.5e-6 --pretrain True --ae_lr 0.0001 --ae_n_epochs 15 --ae_lr_milestone 250 --ae_batch_size 200 --ae_weight_decay 0.5e-6 --normal_class 3
